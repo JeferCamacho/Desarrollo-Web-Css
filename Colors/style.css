@@ -88,7 +88,8 @@ body {
 #back {
   color: rgba(0, 0, 255, 0.5);
   background: rgba(0, 255, 0, 0.5)
-    url(https://i.ytimg.com/vi/PORNXyLBeB4/maxresdefault.jpg) no-repeat center
-    bottom / 100px 100px;
-  height: 100px;
+    url(https://i.ytimg.com/vi/PORNXyLBeB4/maxresdefault.jpg) no-repeat bottom /
+    100px 100px;
+  height: 200px;
+  width: 400px;
 }
