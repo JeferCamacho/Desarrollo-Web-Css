@@ -72,39 +72,52 @@ body {
   background-color: rgba(0, 0, 255, 0.5);
 }
 
-*/
-
-body {
-  background-color: rgba(0, 0, 0);
-}
-
-.border {
-  color: rgba(255, 255, 255, 0.5);
-  border: 5px rgb(0, 255, 0) dotted;
-  width: 70px;
-  height: 60px;
-}
-
-#back {
-  color: rgba(0, 0, 255, 0.5);
-  background: rgba(0, 255, 0, 0.5)
-    url(https://i.ytimg.com/vi/PORNXyLBeB4/maxresdefault.jpg) no-repeat bottom /
-    100px 100px;
-  height: 200px;
-  width: 400px;
-}
 
 .margin-one {
-  background-color: rgb(0, 0, 255);
-  color: rgba(255, 255, 255, 0.5);
-  margin-bottom: 20px;
+  background-image: url("https://i.ytimg.com/vi/PORNXyLBeB4/maxresdefault.jpg");
+  background-color: rgba(0, 0, 255, 0.5);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  background-position: top left;
+
+  margin-bottom: 5px;
+  width: 400px;
+  height: 200px;
+  outline: 1px blue solid;
 }
 
 .margin-two {
-  background-color: rgb(0, 255, 0);
-  color: rgba(255, 255, 255, 0.5);
-  padding-top: 20px;
-  width: 50px;
-  height: 50px;
-  overflow: hidden;
+  background-color: hsla(50, 50%, 20%, 0.5);
+  padding: 20px 20px 20px 30px;
+  width: 400px;
+  position: relative;
+  height: 200px;
+
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: overline;
+}
+
+a:link {
+  color: hsl(1, 100%, 20%);
+}
+
+a:visited{
+
+color: yellow;
+}
+
+a:hover{
+  color: brown;
+}
+
+a:active {
+  color: aqua;
+}
+
+
+*/
+
+table{
+  border: 1px rgba(0, 0, 255, .5) solid;
 }
