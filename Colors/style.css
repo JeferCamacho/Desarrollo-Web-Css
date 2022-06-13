@@ -118,6 +118,22 @@ a:active {
 
 */
 
-table{
-  border: 1px rgba(0, 0, 255, .5) solid;
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px rgba(0, 0, 0, 0.5) solid;
+}
+
+th {
+  background-color: hsl(19, 100%, 50%);
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+}
+
+tr:hover {
+  background-color: darkgray;
 }
