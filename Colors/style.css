@@ -216,7 +216,6 @@ tr:hover {
   max-width: 200%;
 }
 
-*/
 .content {
   background-color: hsl(19, 100%, 50%);
   width: 500px;
@@ -240,4 +239,32 @@ tr:hover {
 .element-three {
   background-color: hsl(123, 70%, 20%);
   width: 30px;
+}
+
+*/
+
+.cuadrado-one {
+  background-color: hsl(200, 100%, 50%);
+  width: 300px;
+  height: 20px;
+  position: relative;
+  top: 0;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.cuadrado-two {
+  background-color: hsl(50, 100%, 50%);
+  width: 300px;
+  height: 400px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.cuadrado-three {
+  background-color: hsl(70, 100%, 50%);
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
 }
